@@ -9,6 +9,8 @@ public class Employee {
 	int Id;
 	String empName;
 	int empSalary;
+	String Address;
+	
 	
 	// Constructor 
 	public Employee() {
@@ -51,6 +53,14 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [Id=" + Id + ", empName=" + empName + ", empSalary=" + empSalary + "]";
+	}
+
+	public String getAddress() {
+		return Address;
+	}
+
+	public void setAddress(String address) {
+		Address = address;
 	}
 	
 	
