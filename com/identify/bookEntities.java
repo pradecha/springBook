@@ -1,3 +1,4 @@
+package com.identify;
 public class bookEntities {
 
     int boodId;
@@ -8,7 +9,7 @@ public class bookEntities {
         return boodId;
     }
     public void setBoodId(int boodId) {
-        this.boodId = boodId;
+        this.boodId = boodId; 
     }
     public String getBookName() {
         return bookName;
